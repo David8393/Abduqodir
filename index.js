@@ -177,14 +177,12 @@
 
 // 2-Holat
 
-// function data(value) {
-//     var reverse = value.split('')
-//     return reverse.sort(function (a, b) {
-//         return b-a
-
-//     }).join('')
-// }
-// console.log(data('123456789'));
+// var point = '123456789';
+// var data = point.split('')
+// data.sort(function (a, b) {
+//   return b - a;
+// });
+// console.log(data.join('')); 
 
 ///////// 3-masala /////////
 

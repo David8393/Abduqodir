@@ -1,4 +1,4 @@
-console.log('Otabek') // berilayotgan buyrug'imizni yechimi
+// console.log('Otabek') // berilayotgan buyrug'imizni yechimi
 
 // datatypes
 // Number, string
