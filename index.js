@@ -256,4 +256,5 @@
 //     var a = 'Web Brain Academy Developer'
 //     return a.match(/e/gi).length
 // }
+
 // console.log(data('e'));
