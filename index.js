@@ -222,7 +222,7 @@
 // }
 // data(10);
 
-// 6-masala
+//////// 6-masala ////////
 
 // data = (a, b) => {
 //   return a ** b;
