@@ -198,13 +198,7 @@
 // data = person => person ? `Welcome to our course ${person}` :'welcome to strenge'
 // console.log(data('otabek'))
 
-// function data(value) {
-//     var a = value.split('')
-//     return a
-// }
-// console.log(data('Web brain academy'));
-
-// 4-masala///
+////////// 4-masala //////////
 
 // var data = 'Web brain academy';
 // var a = data.split(' ');
