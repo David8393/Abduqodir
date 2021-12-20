@@ -229,7 +229,7 @@
 // };
 // console.log(data(7, 2));
 
-// 7-masala
+//////// 7-masala /////////
 // function data(a) {
 //     var a = 'Web Brain Academy Developer'
 //     return a.match(/e/gi).length
