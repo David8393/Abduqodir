@@ -24,14 +24,18 @@
 // console.log(func(123456));
 // console.log(func(152));
 // console.log(func(123456789));
-///////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 
 // Masalalar//
-// 1-masala 1-Holat
+
+////////////// 1-masala////////////////////////
+
+//  1 - Holat;
+
 // function data(letter) {
 //    return letter === letter.toUpperCase()
 // }
-// console.log(data('a'));
+// console.log(data('A'));
 
 // 2-Holat
 // data = a => a === a.toUpperCase()
@@ -43,7 +47,11 @@
 // }
 // data ('d')
 
-// 2-masala 1-Holat
+// var a = 'a'
+// console.log(a.match(/A-Z/g));
+
+////////////////////2-masala//////////////////////////
+
 // letter = 'Webbrain Academy';
 // console.log( letter.match(/a/gi).length)
 
@@ -56,7 +64,9 @@
 // }
 // console.log(a);
 
-// 3-masala 1-Holat
+//////////////////3-masala/////////////////
+
+// 1-Holat
 // var num = '123456789';
 // var a = 0;
 
@@ -72,7 +82,7 @@
 
 // var a = 0;
 
-// for (i = 0; i <= num.length; i+2) {
+// for (i = 0; i <= num.length; i++) {
 //   a += i;
 // }
 // console.log(a);
@@ -80,20 +90,25 @@
 // 3-Holat
 
 // function sumOfStr(str) {
-//   var a = num.split('');
+//   var a = str.split('');
 //   return a.reduce(function (first, second) {
 //     return parseInt(first) + parseInt(second);
 //   });
 // }
 // console.log(sumOfStr('123456789'));
-// 4-masala
+
+//////////////////// 4-masala/////////////////////
+
 // 1-Holat
+
 // function data(letter) {
 //     var letter1 = letter.split('*').join('');
 //     return letter1.split('/').join('')
 // }
 // console.log(data('lorem / lorem *'));
+
 // 2-Holat
+
 // function data(letter) {
 //     var letter1 = letter.replace('*', '');
 //     return letter1.replace('/', '')
@@ -103,11 +118,142 @@
 // var Otabek = 'lorem / lorem *'
 // Shaxzod = Otabek.split('*').join('')
 // console.log(Shaxzod.split('/').join(''));
+
 //4-Holat
+
 // function data(str) {
 //   console.log(str.match(/\w/g).join(''));
 // }
 // data(`Webbrain // Academy ** `);
 ////////////////////////////////////////
-// var a = 'gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg'
-// console.log(a.length);
+
+// function mark(Value) {
+//   if (Value ==='A') {
+//     console.log('You are passed Succesfully');
+//   } else if (Value === 'B') {
+//     console.log('You are passed');
+//   } else if (Value === 'C') {
+//     console.log('reexam');
+//   } else if (Value ==='E') {
+//     console.log('Failed');
+//   } else {
+//     console.log('NUN');
+//   }
+// }
+// mark('C');
+
+// function app(value1, value2, value3) {
+//   var data = 'Shakhzod Shukurullayev'
+
+//   if (data.includes(value1 && value2 || value3)) {
+//     console.log(true);
+//   } else {console.log(false);
+//   }
+// }
+// app('Otabek', 'Elbek','Shakhzod');
+
+// var a = 'webbrain'
+// console.log(a[-1]);
+
+/////////// 1-masala //////////
+
+// function translate(value1) {
+//     if (value1 === 'Russian') console.log('Privet');
+//    else if (value1 === 'Uzbek') console.log('Salom');
+//    else if (value1 === 'English') console.log('Hello');
+//     else console.log('Bizda ushbu til mavjud emas');
+// }
+// translate('Uzbek')
+
+///////// 2-masala ////////
+
+// 1-Holat
+
+// function data(value) {
+//     return value.split('').reverse().join('')
+
+// }
+// console.log(data('123456789'));
+
+// 2-Holat
+
+// function data(value) {
+//     var reverse = value.split('')
+//     return reverse.sort(function (a, b) {
+//         return b-a
+
+//     }).join('')
+// }
+// console.log(data('123456789'));
+
+///////// 3-masala /////////
+
+// function data(person) {
+//   person
+//     ? console.log(`welcome to our course ${person}`)
+//     : console.log('Welcome to strange');
+// }
+// data();
+
+// data = person => person ? `Welcome to our course ${person}` :'welcome to strenge'
+// console.log(data('otabek'))
+
+// function data(value) {
+//     var a = value.split('')
+//     return a
+// }
+// console.log(data('Web brain academy'));
+
+// 4-masala///
+
+// var data = 'Web brain academy';
+// var a = data.split(' ');
+
+// function Capital(c) {
+//   return (
+//     c[0].replace(c[0][0], c[0][0].toUpperCase()) +
+//     ' ' +
+//     c[1].replace(c[1][0], c[1][0].toUpperCase()) +
+//     ' ' +
+//     c[2].replace(c[2][0], c[2][0].toUpperCase())
+//   );
+// }
+
+// console.log(Capital(a));
+
+////////////////////////////////
+
+// var data = 'Web brain academy';
+// var a = data.split(' ');
+
+// function Capital(a) {
+//   return (
+//     a[0].replace(a[0][0], a[0][0].toUpperCase()) +
+//     ' ' +
+//     a[1].replace(a[1][0], a[1][0].toUpperCase()) +
+//     ' ' +
+//     a[2].replace(a[2][0], a[2][0].toUpperCase())
+//   );
+// }
+
+// console.log(Capital(a));
+// 5-masala
+
+// function data(params) {
+//     params % 2 ? console.log('toq') : console.log('juft');
+// }
+// data(10);
+
+// 6-masala
+
+// data = (a, b) => {
+//   return a ** b;
+// };
+// console.log(data(7, 2));
+
+// 7-masala
+// function data(a) {
+//     var a = 'Web Brain Academy Developer'
+//     return a.match(/e/gi).length
+// }
+// console.log(data('e'));
