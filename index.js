@@ -209,23 +209,6 @@
 // var data = 'Web brain academy';
 // var a = data.split(' ');
 
-// function Capital(c) {
-//   return (
-//     c[0].replace(c[0][0], c[0][0].toUpperCase()) +
-//     ' ' +
-//     c[1].replace(c[1][0], c[1][0].toUpperCase()) +
-//     ' ' +
-//     c[2].replace(c[2][0], c[2][0].toUpperCase())
-//   );
-// }
-
-// console.log(Capital(a));
-
-////////////////////////////////
-
-// var data = 'Web brain academy';
-// var a = data.split(' ');
-
 // function Capital(a) {
 //   return (
 //     a[0].replace(a[0][0], a[0][0].toUpperCase()) +
@@ -237,7 +220,8 @@
 // }
 
 // console.log(Capital(a));
-// 5-masala
+
+//////// 5-masala ////////
 
 // function data(params) {
 //     params % 2 ? console.log('toq') : console.log('juft');
