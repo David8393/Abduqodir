@@ -182,7 +182,7 @@
 // data.sort(function (a, b) {
 //   return b - a;
 // });
-// console.log(data.join('')); 
+// console.log(data.join(''));
 
 ///////// 3-masala /////////
 
@@ -218,7 +218,7 @@
 // function data(params) {
 //     params % 2 ? console.log('toq') : console.log('juft');
 // }
-// data(10);
+// data(52);
 
 //////// 6-masala ////////
 
@@ -228,9 +228,87 @@
 // console.log(data(7, 2));
 
 //////// 7-masala /////////
-// function data(a) {
-//     var a = 'Web Brain Academy Developer'
-//     return a.match(/e/gi).length
+
+// function data() {
+//     var a = 'Web Brain Academy'
+//     return a
 // }
 
-// console.log(data('e'));
+// console.log(data().match(/i/gi).length)
+
+// letter = 'Webbrain Academy';
+// console.log( letter.match(/a/gi).length)
+
+// var a = 100
+// console.log(Number(a));
+
+////////////////////////////////////////////
+// var s = 'abcde'
+// var b = 'bcdea'
+//     if (s === b) console.log(true);
+//    else console.log(false);
+
+// console.log(s.length - 1);
+// var c = s.split(' ')
+// function data() {
+//    return c[0].replace(c[0][0], c[0][0])
+// }
+// console.log(data());
+
+////// 1-masala ///////
+// var a = 100
+// console.log(parseInt(a, 2));
+
+// var a = 4.10
+// console.log(a.toString(2));
+
+// 2-masala
+
+// var a = 'abcde'
+// var b = 'bcdea'
+// a = a.split('').sort().join('');
+// b = b.split('').sort().join('');
+// console.log(a === b);
+
+// 3-masala
+
+// var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] % 2 === 1 ) {
+//         console.log(a[i],'is odd');
+//     } else if (a[i] % 2 === 0) {
+//         console.log(a[i],'is even');
+//     }
+// }
+
+// 4- masala
+// var a ='456'
+// var b = '77'
+// console.log(+a+(+b));
+
+// 5-masala
+
+// function name(a, b) {
+//     if (a < b) console.log(b);
+//     else if (a > b) console.log(a - b);
+    
+// }
+// name(1000, 50)
+
+// 6-masala
+
+// function data(...params) {
+//     const [a, b, c, d] = params
+//     return (a+b+c+d)/4
+// }
+// console.log(data(80,77,88,95));
+
+// 7 -masala
+
+var a = ['*']
+var size = 10
+console.log(a.join(''));
+for (let i = 0; i < size; i++) {
+    a.push('*')
+    console.log(a.join(''));
+}
