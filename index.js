@@ -289,11 +289,9 @@
 // 5-masala
 
 // function name(a, b) {
-//     if (a < b) console.log(b);
-//     else if (a > b) console.log(a - b);
-    
+//     a < b ? console.log(b) : console.log(a-b);
 // }
-// name(1000, 50)
+// name(10000, 2000)
 
 // 6-masala
 
@@ -305,10 +303,24 @@
 
 // 7 -masala
 
-var a = ['*']
-var size = 10
-console.log(a.join(''));
-for (let i = 0; i < size; i++) {
-    a.push('*')
-    console.log(a.join(''));
+// var a = ['*']
+// var size = 10
+// console.log(a.join(''));
+// for (let i = 0; i < size; i++) {
+//     a.push('*')
+//     console.log(a.join(''));
+// }
+
+function Shiftright(a, b) {
+    for (let i = 0; i < b ; i++) {
+        var lastIndex = a.length - 1
+        var lastItem = a[lastIndex]  
+        for (j = lastIndex; j > -1; j--) {
+            if (a.length -1 > 0) {
+                console.log(a[j] = a[j -1]);
+            }else {}
+        }
+    }
 }
+Shiftright([5, 6, 7, 8, 9], 5)
+
