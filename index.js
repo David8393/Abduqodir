@@ -256,7 +256,7 @@
 // console.log(data());
 
 ////// 1-masala ///////
-// var a = 100
+// var a = 101001
 // console.log(parseInt(a, 2));
 
 // var a = 4.10
@@ -311,16 +311,16 @@
 //     console.log(a.join(''));
 // }
 
-function Shiftright(a, b) {
-    for (let i = 0; i < b ; i++) {
-        var lastIndex = a.length - 1
-        var lastItem = a[lastIndex]  
-        for (j = lastIndex; j > -1; j--) {
-            if (a.length -1 > 0) {
-                console.log(a[j] = a[j -1]);
-            }else {}
-        }
-    }
-}
-Shiftright([5, 6, 7, 8, 9], 5)
+// function Shiftright(a, b) {
+//     for (let i = 0; i < b ; i++) {
+//         var lastIndex = a.length - 1
+//         var lastItem = a[lastIndex]  
+//         for (j = lastIndex; j > -1; j--) {
+//             if (a.length -1 > 0) {
+//                 console.log(a[j] = a[j -1]);
+//             }else {}
+//         }
+//     }
+// }
+// Shiftright([5, 6, 7, 8, 9], 5)
 

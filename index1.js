@@ -53,7 +53,8 @@
 // a.charAt(index) === a[index]
 // index doimo 0 dan boshlanadi
 // length index qabul qilmaydi va uning qiymati 1 dan boshlanadi
-// slice (start , end)
+// slice (start , end).  manfiy qiymat ogani uchun substringdan farq qiladi
+
 // substring (start, end)
 // substr (start, length) 1- qiymat indexda ishlaydi , 2- qiymatimiz length da ishlaydi
 // padStart , padEnd !!!
@@ -71,6 +72,45 @@
 // 2 = 10
 // 3 = 11
 // 4 = 100
+
+// var a = '1'
+// console.log(a.padStart('10' , '1'));
+
+// var a = '5'
+//  console.log(a.padStart('4', '6'));
+
+// var b = '5'
+// console.log(b.padEnd('3', '7'));
+
+// charAt (index)
+
+// var a = 'Otabek'
+// console.log(a.slice(1, 4));
+// console.log(a.splice(1, 4));
+
+// indexOf
+
+// var a = 'Otabek'
+// console.log(a.indexOf('a', 5=>start for searching a ));
+
+// var b = 'Otabek'
+// console.log(b.lastIndexOf('e', 3));
+
+// search
+
+// var a = 'Otabek'
+// console.log(a.search('O'));
+
+// includes => bolean qiymat qaytaradi
+
+// var a = 'Otabek'
+// console.log(a.includes('a', 1));
+
+
+// trim => space larni kesib oluvchi metod
+// var a = '   Abduqodir   '
+// var b = '   Otabek'
+//  console.log(a.trim(), b.trim());
 
 
 
